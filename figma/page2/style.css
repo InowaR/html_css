@@ -20,11 +20,12 @@
 
 .background {
     display: flex;
-    justify-content: baseline;
-    width: 1915px;
+    justify-content: flex-start;
+    width: 1920px;
     height: 491px;
     flex-shrink: 0;
     background: #FFF;
+    margin-bottom: 100px;
 }
 
 .features01 {
@@ -188,18 +189,22 @@
     margin-left: 30px;
 }
 
-.rectangle10 {
+.grey-bar {
     width: 1920px;
-    height: 919px;
-    flex-shrink: 0;
+    height: 92px;
     background: #FAFAFA;
 }
 
-.secation-title {
+.grey-box {
+    width: 1920px;
+    height: 919px;
+    background: #FAFAFA;
+}
+
+.section-title {
     width: 682px;
     height: 123px;
     flex-shrink: 0;
-    margin-top: 92px;
     margin-left: 619px;
 }
 
@@ -211,6 +216,7 @@
     font-weight: 400;
     line-height: normal;
     margin-left: 50px;
+    margin-top: 0px;
 }
 
 .paragraph-center {
@@ -229,7 +235,6 @@
     justify-content: flex-start;
     width: 1440px;
     height: 616px;
-    border: 2px solid #000;
     margin-left: 257px;
     margin-top: 31px;
 }
@@ -237,9 +242,9 @@
 .service1 {
     width: 370px;
     height: 549px;
-    border: 1px solid #000;
     margin-left: 118px;
     margin-top: 24px;
+    background: #FFF;
 }
 
 .pic1 {
@@ -249,23 +254,25 @@
 }
 
 .service2 {
+    z-index: 1;
     width: 370px;
     height: 549px;
-    border: 1px solid #000;
     margin-top: 24px;
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
 }
 
 .pic2 {
-    width: 396px;
-    height: 297px;
+    width: 370px;
+    height: 289px;
     flex-shrink: 0;
 }
 
 .service3 {
     width: 370px;
     height: 549px;
-    border: 1px solid #000;
     margin-top: 24px;
+    background: #FFF;
 }
 
 .pic3 {
@@ -273,3 +280,54 @@
     height: 289px;
     flex-shrink: 0;
 }
+
+.txt {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 83px;
+}
+
+.p {
+    width: 310px;
+    height: 63px;
+    flex-shrink: 0;
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    margin-left: 30px;
+}
+
+#button {
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-left: 100px;
+    position: relative;
+}.b {
+    border: none;
+    background-color: rgb(243, 86, 14);
+    top: 37%;
+    left: 25%;
+    position: absolute;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 19.5px */
+    }.icon {
+        top: 48%;
+        left: 77%;
+        position: absolute;
+        text-align: center;
+    }
