@@ -1,0 +1,275 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../fonts/gilroy-bold.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-SemiBold;
+    src: url(../fonts/gilroy-semibold.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(../fonts/gilroy-medium.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(../fonts/gilroy-regular.ttf);
+}
+
+.background {
+    display: flex;
+    justify-content: baseline;
+    width: 1915px;
+    height: 491px;
+    flex-shrink: 0;
+    background: #FFF;
+}
+
+.features01 {
+    width: 310px;
+    height: 226px;
+    flex-shrink: 0;
+    margin-top: 140px;
+    margin-left: 364px;
+}
+
+.icon1 {
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    margin-left: 30px;
+}
+
+.text1 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.p1 {
+    width: 310px;
+    height: 42px;
+    flex-shrink: 0;
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+.button1 {
+    border: none;
+    background-color: #FFF;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 16.5px */
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+.features02 {
+    width: 370px;
+    height: 291px;
+    flex-shrink: 0;
+    margin-top: 140px;
+    margin-left: 61px;
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.icon2 {
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    margin-left: 30px;
+}
+
+.text2 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.p2 {
+    width: 310px;
+    height: 42px;
+    flex-shrink: 0;
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+.button2 {
+    border: none;
+    background-color: #FFF;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 16.5px */
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+.features03 {
+    width: 370px;
+    height: 291px;
+    flex-shrink: 0;
+    margin-top: 140px;
+    margin-left: 61px;
+}
+
+.icon3 {
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    margin-left: 30px;
+}
+
+.text3 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.p3 {
+    width: 310px;
+    height: 42px;
+    flex-shrink: 0;
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+.button3 {
+    border: none;
+    background-color: #FFF;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 16.5px */
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+.rectangle10 {
+    width: 1920px;
+    height: 919px;
+    flex-shrink: 0;
+    background: #FAFAFA;
+}
+
+.secation-title {
+    width: 682px;
+    height: 123px;
+    flex-shrink: 0;
+    margin-top: 92px;
+    margin-left: 619px;
+}
+
+.title-center {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 50px;
+}
+
+.paragraph-center {
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin-top: 19px;
+}
+
+.services {
+    display: flex;
+    justify-content: flex-start;
+    width: 1440px;
+    height: 616px;
+    border: 2px solid #000;
+    margin-left: 257px;
+    margin-top: 31px;
+}
+
+.service1 {
+    width: 370px;
+    height: 549px;
+    border: 1px solid #000;
+    margin-left: 118px;
+    margin-top: 24px;
+}
+
+.pic1 {
+    width: 385px;
+    height: 289px;
+    flex-shrink: 0;
+}
+
+.service2 {
+    width: 370px;
+    height: 549px;
+    border: 1px solid #000;
+    margin-top: 24px;
+}
+
+.pic2 {
+    width: 396px;
+    height: 297px;
+    flex-shrink: 0;
+}
+
+.service3 {
+    width: 370px;
+    height: 549px;
+    border: 1px solid #000;
+    margin-top: 24px;
+}
+
+.pic3 {
+    width: 385px;
+    height: 289px;
+    flex-shrink: 0;
+}
