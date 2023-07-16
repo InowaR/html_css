@@ -244,11 +244,12 @@
     height: 549px;
     margin-left: 118px;
     margin-top: 24px;
+    margin-right: 22px;
     background: #FFF;
 }
 
 .pic1 {
-    width: 385px;
+    width: 370px;
     height: 289px;
     flex-shrink: 0;
 }
@@ -258,6 +259,7 @@
     width: 370px;
     height: 549px;
     margin-top: 24px;
+    margin-right: 22px;
     background: #FFF;
     box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
 }
