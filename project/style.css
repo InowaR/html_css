@@ -38,7 +38,6 @@
     width: 405px;
     height: 93.099px;
     flex-shrink: 0;
-    /* border: 0.5rem outset rgb(52, 182, 69); */
     position: relative;
 }
 
@@ -73,6 +72,138 @@
     color: #F16D7F;
     font-family: Lato;
     font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.offer {
+    margin-top: 100px;;
+    margin-left: 200px;
+    border: 0.5rem outset rgb(52, 182, 69);
+    width: 1140px;
+    height: 470px;
+    flex-shrink: 0;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 1.1fr 1.1fr 1fr;
+    grid-column-gap: 10px;
+    margin-bottom: 26px;
+}
+
+#women {
+    position: relative;
+}.women-img{
+    filter: brightness(35%);
+    background: lightgray 0px -23px / 101.944% 143.077% no-repeat;
+}
+.women-text-offer1 {
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.women-text-offer2 {
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#men {
+    position: relative;
+}.men-img{
+    filter: brightness(35%);
+    background: lightgray 0px -23px / 101.944% 143.077% no-repeat;
+}
+.men-text-offer1 {
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.men-text-offer2 {
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#kids {
+    position: relative;
+}.kids-img{
+    filter: brightness(35%);
+    background: lightgray 0px -23px / 101.944% 143.077% no-repeat;
+}
+.kids-text-offer1 {
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.kids-text-offer2 {
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#accesories {
+    position: relative;
+}.accesories-img{
+    filter: brightness(35%);
+    background: lightgray 0px -23px / 101.944% 143.077% no-repeat;
+}
+.accesories-text-offer1 {
+    position: absolute;
+    top: 34%;
+    left: 37%;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.accesories-text-offer2 {
+    position: absolute;
+    top: 42%;
+    left: 37.5%;
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
