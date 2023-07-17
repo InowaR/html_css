@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Lato;
+    src: url(fonts/Lato/Lato-Regular.ttf);
+}
+
+.desktop {
+    width: 1600px;
+    height: 2925px;
+    background: #ffffff;
+    border: 0.5rem outset rgb(72, 255, 0);
+}
+
+.bar {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.45fr 1fr 0.6fr;
+    width: 1600px;
+    height: 75px;
+    flex-shrink: 0;
+    background: #222;
+}
+
+.logo {
+    margin-left: 260px;
+}
+
+.background {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.5fr 0.5fr;
+    width: 1600px;
+    height: 764px;
+    flex-shrink: 0;
+    background: #F1E4E6;
+}
+
+#title {
+    width: 405px;
+    height: 93.099px;
+    flex-shrink: 0;
+    /* border: 0.5rem outset rgb(52, 182, 69); */
+    position: relative;
+}
+
+.txt1 {
+    position: absolute;
+    top: -40%;
+    left: 7%;
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.txt2 {
+    position: absolute;
+    top: 35%;
+    left: 7%;
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.txt3 {
+    position: absolute;
+    top: 35%;
+    left: 65%;
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
