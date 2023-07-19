@@ -3,11 +3,15 @@
     src: url(fonts/Lato/Lato-Regular.ttf);
 }
 
+@font-face {
+    font-family: Lato-Light;
+    src: url(fonts/Lato/Lato-Light.ttf);
+}
+
 .desktop {
     width: 1600px;
     height: 2925px;
     background: #ffffff;
-    border: 0.5rem outset rgb(72, 255, 0);
 }
 
 .bar {
@@ -68,7 +72,7 @@
 .txt3 {
     position: absolute;
     top: 35%;
-    left: 65%;
+    left: 67%;
     color: #F16D7F;
     font-family: Lato;
     font-size: 32px;
@@ -80,7 +84,6 @@
 .offer {
     margin-top: 65px;;
     margin-left: 230px;
-    border: 0.5rem outset rgb(52, 182, 69);
     width: 1140px;
     height: 470px;
     flex-shrink: 0;
@@ -95,7 +98,7 @@
 
 #women {
     position: relative;
-}.women-img{
+}.women-img {
     filter: brightness(35%);
     background: lightgray 0px -23px / 101.944% 143.077% no-repeat;
 }
@@ -112,7 +115,7 @@
 }
 .women-text-offer2 {
     position: absolute;
-    top: 40%;
+    top: 41%;
     left: 27%;
     color: #F16D7F;
     font-family: Lato;
@@ -124,7 +127,7 @@
 
 #men {
     position: relative;
-}.men-img{
+}.men-img {
     filter: brightness(35%);
     background: lightgray 0px -23px / 101.944% 143.077% no-repeat;
 }
@@ -141,7 +144,7 @@
 }
 .men-text-offer2 {
     position: absolute;
-    top: 40%;
+    top: 41%;
     left: 33%;
     color: #F16D7F;
     font-family: Lato;
@@ -153,7 +156,7 @@
 
 #kids {
     position: relative;
-}.kids-img{
+}.kids-img {
     filter: brightness(35%);
     background: lightgray 0px -23px / 101.944% 143.077% no-repeat;
 }
@@ -170,7 +173,7 @@
 }
 .kids-text-offer2 {
     position: absolute;
-    top: 40%;
+    top: 41%;
     left: 38%;
     color: #F16D7F;
     font-family: Lato;
@@ -182,7 +185,7 @@
 
 #accesories {
     position: relative;
-}.accesories-img{
+}.accesories-img {
     filter: brightness(35%);
     background: lightgray 0px -23px / 101.944% 143.077% no-repeat;
 }
@@ -199,7 +202,7 @@
 }
 .accesories-text-offer2 {
     position: absolute;
-    top: 42%;
+    top: 43%;
     left: 37.5%;
     color: #F16D7F;
     font-family: Lato;
@@ -213,7 +216,6 @@
     width: 1140px;
     height: 1395px;
     flex-shrink: 0;
-    border: 0.5rem outset rgb(52, 182, 69);
     margin-top: 96px;
     margin-left: 230px;
 }
@@ -238,49 +240,84 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: -15px;
 }
 
 .main {
+    margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-    border: 0.5rem outset rgb(52, 182, 69);
 
 }
 
 .block {
-    width: 340px;
+    width: 360px;
     height: 581px;
-    border: 0.5rem outset rgb(52, 182, 69);
 }
 
+.photo-block {
+    width: 360px;
+    height: 420px;
+    flex-shrink: 0;
+    background: #F7E4E2;
+}
+
+.text-block {
+    max-width: 360px;
+    max-height: 162px;
+    background: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 24px;
+    padding-left: 16px;
+    padding-bottom: 5px;
+}
 
 .img1 {
-
+    width: 360px;
+    height: 420px;
+    flex-shrink: 0;
 }
 
 .img2 {
+    width: 141.943px;
+    height: 400px;
+    flex-shrink: 0;
+    margin-top: 9px;
+    margin-left: 108px;
     
 }
 
 .img3 {
-    
+    width: 360px;
+    height: 420px;
+    flex-shrink: 0;
 }
 
 .img4 {
-    
+    width: 360px;
+    height: 420px;
+    flex-shrink: 0;
 }
 
 .img5 {
-    
+    width: 360px;
+    height: 420px;
+    flex-shrink: 0;
 }
 
 .img6 {
-    
+    width: 360px;
+    height: 420px;
+    flex-shrink: 0;
 }
 
 .img-txt {
+    margin-top: 5px;
     width: 148.114px;
     color: #000;
     font-family: Lato;
@@ -291,9 +328,10 @@
 }
 
 .img-paragraph {
+    margin-top: 5px;
     width: 314.743px;
     color: #5D5D5D;
-    font-family: Lato;
+    font-family: Lato-Light;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
@@ -301,6 +339,7 @@
 }
 
 .img-price {
+    margin-top: 5px;
     width: 52.457px;
     color: #F16D7F;
     font-family: Lato;
@@ -311,11 +350,11 @@
     }
 
 #footer {
+    margin-top: 50px;
     margin-left: 455px;
     width: 212px;
     height: 48px;
     flex-shrink: 0;
-    border: 0.5rem outset rgb(52, 182, 69);
     position: relative;
 }
 
