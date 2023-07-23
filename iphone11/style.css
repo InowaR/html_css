@@ -17,7 +17,7 @@
 .bar {
     display: grid;
     align-items: center;
-    grid-template-columns: 0.28fr 1fr 0.5fr;
+    grid-template-columns: 0.27fr 0.6fr 0.1fr;
     width: 375px;
     height: 74px;
     flex-shrink: 0;
@@ -25,7 +25,9 @@
 }
 
 .logo {
-    margin-left: 32px;
+    width: 44px;
+    height: 38px;
+    margin-left: 16px;
 }
 
 .background {
@@ -39,6 +41,7 @@
 }
 
 #title {
+    margin-left: 56px;
     width: 311px;
     height: 92px;
     flex-shrink: 0;
@@ -47,17 +50,17 @@
 
 .pink-bar {
     width: 12px;
-    height: 92px;
+    height: 61px;
     flex-shrink: 0;
 }
 
 .txt1 {
     position: absolute;
-    top: -25%;
-    left: 10%;
+    top: -35%;
+    left: 7%;
     color: #222;
     font-family: Lato;
-    font-size: 44px;
+    font-size: 38px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -65,11 +68,11 @@
 
 .txt2 {
     position: absolute;
-    top: 45%;
-    left: 10%;
+    top: 27%;
+    left: 7%;
     color: #222;
     font-family: Lato;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -77,11 +80,11 @@
 
 .txt3 {
     position: absolute;
-    top: 45%;
-    left: 68%;
+    top: 27%;
+    left: 55%;
     color: #F16D7F;
     font-family: Lato;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -92,8 +95,9 @@
     grid-template-columns: 1fr;
     margin-top: 65px;
     width: 375px;
-    height: 800px;
+    height: 980px;
     flex-shrink: 0;
+    margin-left: 10px;
 }
 
 .top {
@@ -104,8 +108,8 @@
 #women {
     position: relative;
 }.women-img {
-    width: 231.973px;
-    height: 167.617px;
+    width: 343px;
+    height: 247px;
     flex-shrink: 0;
     filter: brightness(35%);
     background: lightgray 0px -23px / 101.944% 143.077% no-repeat;
@@ -136,8 +140,8 @@
 #men {
     position: relative;
 }.men-img {
-    width: 231.973px;
-    height: 167.617px;
+    width: 343px;
+    height: 247px;
     flex-shrink: 0;
     filter: brightness(35%);
     background: lightgray 0px -23px / 101.944% 143.077% no-repeat;
@@ -168,8 +172,8 @@
 #kids {
     position: relative;
 }.kids-img {
-    width: 232.392px;
-    height: 167px;
+    width: 343px;
+    height: 247px;
     flex-shrink: 0;
     filter: brightness(35%);
     background: lightgray 0px -23px / 101.944% 143.077% no-repeat;
@@ -177,7 +181,7 @@
 .kids-text-offer1 {
     position: absolute;
     top: 35%;
-    left: 37%;
+    left: 32%;
     color: #FFF;
     font-family: Lato;
     font-size: 16px;
@@ -188,7 +192,7 @@
 .kids-text-offer2 {
     position: absolute;
     top: 41%;
-    left: 38%;
+    left: 33%;
     color: #F16D7F;
     font-family: Lato;
     font-size: 24px;
@@ -200,16 +204,16 @@
 #accesories {
     position: relative;
 }.accesories-img {
-    width: 734.581px;
-    height: 116.043px;
+    width: 343.262px;
+    height: 111px;
     flex-shrink: 0;
     filter: brightness(35%);
     background: lightgray 0px -23px / 101.944% 143.077% no-repeat;
 }
 .accesories-text-offer1 {
     position: absolute;
-    top: 34%;
-    left: 37%;
+    top: 23%;
+    left: 25%;
     color: #FFF;
     font-family: Lato;
     font-size: 16px;
@@ -219,8 +223,8 @@
 }
 .accesories-text-offer2 {
     position: absolute;
-    top: 43%;
-    left: 37.5%;
+    top: 36%;
+    left: 27%;
     color: #F16D7F;
     font-family: Lato;
     font-size: 24px;
@@ -233,7 +237,6 @@
     width: 359px;
     height: 1920px;
     flex-shrink: 0;
-    margin-top: 109px;
 }
 
 .products-title {
@@ -260,7 +263,7 @@
 }
 
 .main {
-    margin-top: 80px;
+    margin-top: 75px;
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 16px;
@@ -404,7 +407,7 @@
 
 #footer {
     margin-top: 32px;
-    margin-left: 265px;
+    margin-left: 74px;
     width: 212px;
     height: 80px;
     flex-shrink: 0;
