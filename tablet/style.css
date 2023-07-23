@@ -17,7 +17,7 @@
 .bar {
     display: grid;
     align-items: center;
-    grid-template-columns: 0.3fr 1fr 0.5fr;
+    grid-template-columns: 0.28fr 1fr 0.5fr;
     width: 768px;
     height: 74px;
     flex-shrink: 0;
@@ -94,8 +94,8 @@
 }
 
 .offer {
-    margin-top: 65px;;
-    /* margin-left: 230px; */
+    margin-top: 65px;
+    margin-left: 15px;
     width: 735.999px;
     height: 303.043px;
     flex-shrink: 0;
@@ -104,8 +104,7 @@
 .top {
     display: grid;
     grid-template-columns: 1.1fr 1.1fr 1fr;
-    grid-column-gap: 10px;
-    margin-bottom: 26px;
+    margin-bottom: 15px;
 }
 
 #women {
@@ -238,10 +237,10 @@
 
 .products {
     width: 735.999px;
-    height: 1395px;
+    height: 1920px;
     flex-shrink: 0;
-    margin-top: 96px;
-    /* margin-left: 230px; */
+    margin-top: 109px;
+    margin-left: 16px;
 }
 
 .products-title {
@@ -268,11 +267,11 @@
 }
 
 .main {
-    margin-top: 50px;
+    margin-top: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* grid-column-gap: 30px; */
-    /* grid-row-gap: 30px; */
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
 
 }
 
@@ -374,10 +373,10 @@
     }
 
 #footer {
-    margin-top: 50px;
-    margin-left: 455px;
+    margin-top: 32px;
+    margin-left: 265px;
     width: 212px;
-    height: 48px;
+    height: 80px;
     flex-shrink: 0;
     position: relative;
 }
