@@ -8,7 +8,7 @@
     src: url(fonts/Lato/Lato-Light.ttf);
 }
 
-@media(min-width: 375px) {
+@media(min-width: 10px) {
     .desktop {
         width: 375px;
         height: 5367px;
