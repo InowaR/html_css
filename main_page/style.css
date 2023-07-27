@@ -461,24 +461,44 @@
         line-height: normal;
     }
 
-    .grey-block {
+    .grey-block-img {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         width: 1600px;
         height: 448px;
         flex-shrink: 0;
-        background: #F4F4F4;
+        background-image: url(img/footer/grey-block/Layer\ 41.png);
+        /* filter: opacity(40%); */
+        background: rgba(0, 0, 0, 0.1);
     }
 
-    .grey-block-img {
-        filter: opacity(40%);
+    .subscribe-info {
+        border: 5px solid #0a1150;
+        width: 359.449px;
+        height: 225px;
+        flex-shrink: 0;
+        margin-left: 230px;
+        margin-top: 97px;
     }
 
+    .img-subscribe-info {
+        
+    }
+
+    .subscribe {
+        border: 5px solid #0a1150;
+        width: 557px;
+        height: 142px;
+        flex-shrink: 0;
+        margin-top: 150px;
+    }
+    
     .bottom-block {
         width: 1600px;
         height: 79px;
         flex-shrink: 0;
         background: #222224;
     }
-
 
 }
 
