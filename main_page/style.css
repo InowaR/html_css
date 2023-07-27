@@ -10,9 +10,8 @@
 
 @media(min-width: 768px) and (max-width: 8000px) {
     .bar {
-        display: grid;
+        display: flex;
         align-items: center;
-        grid-template-columns: 0.45fr 1fr 0.6fr;
         width: 1600px;
         height: 75px;
         flex-shrink: 0;
@@ -20,15 +19,37 @@
     }
 
     .logo {
-        margin-left: 260px;
+        margin-left: 250px;
+    }
+
+    .form {
+        margin-left: 50px
     }
 
     .menu-bar1 {
         display: block;
+        margin-left: 800px
     }
 
     .menu-bar2 {
         display: none;
+        margin-left: 800px
+    }
+
+    .ellipse {
+        margin-top: -25px;
+        margin-left: -10px;
+    }
+
+    .ellipse-text {
+        margin-top: -15px;
+        margin-left: -13px;
+        color: #FFF;
+        font-family: Lato;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 
     .background {
@@ -469,7 +490,6 @@
     }
 
     .subscribe-info {
-        /* border: 5px solid #0a1150; */
         width: 359.449px;
         height: 225px;
         flex-shrink: 0;
@@ -633,9 +653,8 @@
 
 @media(max-width: 768px) {
     .bar {
-        display: grid;
+        display: flex;
         align-items: center;
-        grid-template-columns: 0.28fr 1fr 0.5fr;
         width: 768px;
         height: 74px;
         flex-shrink: 0;
@@ -643,15 +662,37 @@
     }
 
     .logo {
-        margin-left: 32px;
+        margin-left: 30px;
+    }
+
+    .form {
+        margin-left: 50px
     }
 
     .menu-bar1 {
         display: block;
+        margin-left: 420px
     }
 
     .menu-bar2 {
         display: none;
+        margin-left: 420px
+    }
+
+    .ellipse {
+        margin-top: -25px;
+        margin-left: -10px;
+    }
+
+    .ellipse-text {
+        margin-top: -15px;
+        margin-left: -13px;
+        color: #FFF;
+        font-family: Lato;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 
     .background {
@@ -1113,7 +1154,6 @@
     }
 
     .subscribe-info {
-        /* border: 5px solid #0a1150; */
         width: 359.449px;
         height: 225px;
         flex-shrink: 0;
@@ -1277,16 +1317,9 @@
 
 
 @media(max-width: 375px) {
-    .desktop {
-        width: 375px;
-        height: 5367px;
-        background: #ffffff;
-    }
-
     .bar {
-        display: grid;
+        display: flex;
         align-items: center;
-        grid-template-columns: 0.27fr 0.6fr 0.1fr;
         width: 375px;
         height: 74px;
         flex-shrink: 0;
@@ -1294,17 +1327,39 @@
     }
 
     .logo {
-        width: 44px;
-        height: 38px;
-        margin-left: 16px;
+        margin-left: 20px;
+    }
+
+    .form {
+        margin-left: 50px
     }
 
     .menu-bar1 {
         display: none;
+        margin-left: 180px
     }
 
     .menu-bar2 {
         display: block;
+        margin-left: 180px
+    }
+
+    .ellipse {
+        display: none;
+        margin-top: -25px;
+        margin-left: -10px;
+    }
+
+    .ellipse-text {
+        display: none;
+        margin-top: -15px;
+        margin-left: -13px;
+        color: #FFF;
+        font-family: Lato;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 
     .background {
@@ -1761,7 +1816,6 @@
     }
 
     .subscribe-info {
-        /* border: 5px solid #0a1150; */
         width: 359.449px;
         height: 225px;
         flex-shrink: 0;
@@ -1884,7 +1938,6 @@
     .bottom-block {
         display: flex;
         flex-direction: column-reverse;
-        /* grid-template-rows: 1fr 1fr; */
         width: 375px;
         height: 143px;
         flex-shrink: 0;
