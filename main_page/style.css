@@ -589,10 +589,41 @@
     }
 
     .bottom-block {
+        display: grid;
+        grid-template-columns: 0.75fr 0.09fr;
         width: 1600px;
         height: 79px;
         flex-shrink: 0;
         background: #222224;
+    }
+
+    .all-rights-rezerved {
+        margin-top: 25px;
+        margin-left: 235px;
+        color: #FBFBFB;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .bottom-rect {
+        margin-top: 22px;
+        width: 31.451px;
+        height: 32px;
+        flex-shrink: 0;
+        background: #ffffff;
+    }
+
+    .social-media {
+        display: grid;
+        grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr;
+    }
+
+    .bottom-img {
+        margin-top: 9px;
+        margin-left: 8px;
     }
 
 }
