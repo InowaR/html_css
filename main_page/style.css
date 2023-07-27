@@ -258,7 +258,6 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 30px;
         grid-row-gap: 30px;
-
     }
 
     .block {
@@ -430,7 +429,6 @@
         width: 360px;
         height: 134.004px;
         flex-shrink: 0;
-        /* border: 2px solid #ffffff; */
         margin-top: 100px;
         margin-left: 90px;
     }
@@ -468,12 +466,10 @@
         height: 448px;
         flex-shrink: 0;
         background-image: url(img/footer/grey-block/Layer\ 41.png);
-        /* filter: opacity(40%); */
-        background: rgba(0, 0, 0, 0.1);
     }
 
     .subscribe-info {
-        border: 5px solid #0a1150;
+        /* border: 5px solid #0a1150; */
         width: 359.449px;
         height: 225px;
         flex-shrink: 0;
@@ -482,17 +478,116 @@
     }
 
     .img-subscribe-info {
-        
+        margin-left: 121px;
+    }
+
+    .paragraph-subscribe-info {
+        width: 359.449px;
+        height: 99px;
+        flex-shrink: 0;
+    }
+
+    .p-txt1 {
+        color: #222224;
+        text-align: center;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .p-txt2 {
+        color: #222224;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
     }
 
     .subscribe {
-        border: 5px solid #0a1150;
         width: 557px;
         height: 142px;
         flex-shrink: 0;
-        margin-top: 150px;
+        margin-top: 130px;
+    }
+
+    .word-block {
+        width: 557px;
+        height: 61px;
+        flex-shrink: 0;
+    }
+
+    .word {
+        margin-top: 1px;
+        color: #222224;
+        text-align: center;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 167.2%;
+    }
+
+    .word-txt {
+        margin-top: -20px;
+        color: #222224;
+        text-align: center;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167.2%;
+    }
+
+    .subscribe-button {
+        margin-top: 40px;
+        display: flex;
+        width: 356px;
+        height: 49px;
+        flex-shrink: 0;
+    }
+
+    .grey-area {
+        width: 322.59px;
+        height: 49px;
+        flex-shrink: 0;
+        background: #E1E1E1;
+        border-radius: 50px;
+        margin-left: 100px;
+    }
+
+    .red-img {
+        margin-left: -60px;
     }
     
+    .fill-txt-buttons {
+        margin-top: -45px;
+        display: grid;
+        grid-template-columns: 0.9fr 1fr;
+    }
+
+    .txt-email {
+        color: #222224;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 130px;
+    }
+
+    .txt-subscribe {
+        color: #FFF;
+        text-align: center;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
     .bottom-block {
         width: 1600px;
         height: 79px;
