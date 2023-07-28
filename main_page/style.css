@@ -26,19 +26,54 @@
         margin-left: 50px
     }
 
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .dropdown {
+        margin-left: 957px;
+    }
+      
+    nav li {
+        display: inline-block;
+        position: relative;
+    }
+    
+    nav a {
+        width: 232px;
+        display: block;
+        padding: 20px;
+        color: #333;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    nav .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        box-shadow: -10px 10px 30px rgba(0,0,0,0.1);
+    }
+    
+    nav .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
     .menu-bar1 {
         display: block;
-        margin-left: 800px
+        margin-left: -90px
     }
 
     .menu-bar2 {
         display: none;
-        margin-left: 800px
+        margin-left: -90px
     }
 
     .ellipse {
         margin-top: -25px;
         margin-left: -10px;
+        z-index: 1;
     }
 
     .ellipse-text {
@@ -50,6 +85,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        z-index: 1;
     }
 
     .background {
