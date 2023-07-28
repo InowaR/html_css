@@ -34,6 +34,38 @@
     .dropdown {
         margin-left: 957px;
     }
+
+    .menu-title {
+        color: #000;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .menu-h1 {
+        color: #F16D7F;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .menu-p {
+        color: #6F6E6E;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 40px;
+    }
       
     nav li {
         display: inline-block;
@@ -43,10 +75,10 @@
     nav a {
         width: 232px;
         display: block;
-        padding: 20px;
+        padding: 8px;
         color: #333;
         text-decoration: none;
-        text-align: center;
+        /* text-align: center; */
     }
     
     nav .dropdown-menu {
@@ -462,7 +494,7 @@
 
     .button-txt {
         position: absolute;
-        color: #F26376;
+        color: #ffffff;
         font-family: Lato;
         font-size: 16px;
         font-style: normal;
@@ -1185,7 +1217,7 @@
 
     .button-txt {
         position: absolute;
-        color: #F26376;
+        color: #ffffff;
         font-family: Lato;
         font-size: 16px;
         font-style: normal;
@@ -1906,7 +1938,7 @@
 
     .button-txt {
         position: absolute;
-        color: #F26376;
+        color: #ffffff;
         font-family: Lato;
         font-size: 16px;
         font-style: normal;
