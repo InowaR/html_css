@@ -660,9 +660,8 @@
     }
     
     .fill-txt-buttons {
-        margin-top: -45px;
-        display: grid;
-        grid-template-columns: 0.9fr 1fr;
+        margin-top: -35px;
+        display: flex;
     }
 
     .txt-email {
@@ -673,6 +672,9 @@
         font-weight: 400;
         line-height: normal;
         margin-left: 130px;
+        outline: none;
+        border: none;
+        background: #E1E1E1;
     }
 
     .txt-subscribe {
@@ -683,6 +685,8 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        text-decoration: none;
+        margin-left: 90px;
     }
 
     .bottom-block {
@@ -1416,9 +1420,8 @@
     }
     
     .fill-txt-buttons {
-        margin-top: -45px;
-        display: grid;
-        grid-template-columns: 0.9fr 1fr;
+        margin-top: -35px;
+        display: flex;
     }
 
     .txt-email {
@@ -1429,6 +1432,9 @@
         font-weight: 400;
         line-height: normal;
         margin-left: 130px;
+        outline: none;
+        border: none;
+        background: #E1E1E1;
     }
 
     .txt-subscribe {
@@ -1439,6 +1445,8 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        text-decoration: none;
+        margin-left: 90px;
     }
 
     .bottom-block {
@@ -2169,9 +2177,8 @@
     }
     
     .fill-txt-buttons {
-        margin-top: -45px;
-        display: grid;
-        grid-template-columns: 0.9fr 1fr;
+        margin-top: -35px;
+        display: flex;
     }
 
     .txt-email {
@@ -2182,6 +2189,9 @@
         font-weight: 400;
         line-height: normal;
         margin-left: 130px;
+        outline: none;
+        border: none;
+        background: #E1E1E1;
     }
 
     .txt-subscribe {
@@ -2192,6 +2202,8 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        text-decoration: none;
+        margin-left: 90px;
     }
 
     .bottom-block {
