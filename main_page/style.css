@@ -563,7 +563,7 @@
         width: 1600px;
         height: 448px;
         flex-shrink: 0;
-        background-image: url(img/footer/grey-block/Layer\ 41.png);
+        background-image: url('img/footer/grey-block/Layer\ 41.png');
     }
 
     .subscribe-info {
@@ -713,12 +713,26 @@
         background: #ffffff;
     }
 
+    .bottom-rect1:hover {
+        background: #F16D7F;
+    }
+
     .bottom-rect2 {
         margin-top: 22px;
         width: 31.451px;
         height: 32px;
         flex-shrink: 0;
+        background: #ffffff;
+        background-image: url('img/footer/bottom-block/instagram-brands\ 1.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .bottom-rect2:hover {
         background: #F16D7F;
+        background-image: url('img/footer/bottom-block/white/instagram-brands\ 1.svg');
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     .bottom-rect3 {
@@ -729,12 +743,20 @@
         background: #ffffff;
     }
 
+    .bottom-rect3:hover {
+        background: #F16D7F;
+    }
+
     .bottom-rect4 {
         margin-top: 22px;
         width: 31.451px;
         height: 32px;
         flex-shrink: 0;
         background: #ffffff;
+    }
+
+    .bottom-rect4:hover {
+        background: #F16D7F;
     }
 
     .social-media {
@@ -1447,12 +1469,26 @@
         background: #ffffff;
     }
 
+    .bottom-rect1:hover {
+        background: #F16D7F;
+    }
+
     .bottom-rect2 {
         margin-top: 22px;
         width: 31.451px;
         height: 32px;
         flex-shrink: 0;
+        background: #ffffff;
+        background-image: url('img/footer/bottom-block/instagram-brands\ 1.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .bottom-rect2:hover {
         background: #F16D7F;
+        background-image: url('img/footer/bottom-block/white/instagram-brands\ 1.svg');
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     .bottom-rect3 {
@@ -1463,12 +1499,20 @@
         background: #ffffff;
     }
 
+    .bottom-rect3:hover {
+        background: #F16D7F;
+    }
+
     .bottom-rect4 {
         margin-top: 22px;
         width: 31.451px;
         height: 32px;
         flex-shrink: 0;
         background: #ffffff;
+    }
+
+    .bottom-rect4:hover {
+        background: #F16D7F;
     }
 
     .social-media {
@@ -2171,44 +2215,61 @@
     }
 
     .bottom-rect1 {
-        margin-top: 15px;
-        margin-left: 50px;
+        margin-top: 22px;
         width: 31.451px;
         height: 32px;
         flex-shrink: 0;
         background: #ffffff;
     }
 
-    .bottom-rect2 {
-        margin-top: 15px;
-        margin-left: 50px;
-        width: 31.451px;
-        height: 32px;
-        flex-shrink: 0;
+    .bottom-rect1:hover {
         background: #F16D7F;
     }
 
-    .bottom-rect3 {
-        margin-top: 15px;
-        margin-left: 50px;
+    .bottom-rect2 {
+        margin-top: 22px;
         width: 31.451px;
         height: 32px;
         flex-shrink: 0;
         background: #ffffff;
+        background-image: url('img/footer/bottom-block/instagram-brands\ 1.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .bottom-rect2:hover {
+        background: #F16D7F;
+        background-image: url('img/footer/bottom-block/white/instagram-brands\ 1.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .bottom-rect3 {
+        margin-top: 22px;
+        width: 31.451px;
+        height: 32px;
+        flex-shrink: 0;
+        background: #ffffff;
+    }
+
+    .bottom-rect3:hover {
+        background: #F16D7F;
     }
 
     .bottom-rect4 {
-        margin-top: 15px;
-        margin-left: 50px;
+        margin-top: 22px;
         width: 31.451px;
         height: 32px;
         flex-shrink: 0;
         background: #ffffff;
     }
 
+    .bottom-rect4:hover {
+        background: #F16D7F;
+    }
+
     .social-media {
-        display: grid;
-        grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr;
+        margin-left: 60px;
     }
 
     .bottom-img {
